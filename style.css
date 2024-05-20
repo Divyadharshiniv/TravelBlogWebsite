@@ -1,0 +1,163 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: "Roboto", sans-serif;
+}
+.container{
+    height: 100vh;
+    width: 100%;
+    /* background-image: url(Images/background.png); */
+    background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url(Images/background.png);
+    background-position: center;
+    background-size: cover;
+}
+.logo{
+    height:50px;
+    margin-left: 10%;
+    padding-top: 20px;
+}
+.menu{
+    height: 20px;
+    padding: 30px;
+    cursor: pointer;
+}
+.nav, ul, li, a{
+    display: flex;
+    flex-direction: row;
+    padding: 10px;
+}
+.nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+.navbar{
+    display: flex;
+    justify-content:space-between ;
+}
+ul li a{
+    text-decoration: none;
+    color: white;
+}
+button{
+    width: 180px;
+    color:black;
+    font-size: 12px;
+    padding: 12px;
+    background: white;
+    border: 0;
+    border-radius: 20px;
+    outline: none;
+    margin-top: 30px;
+    cursor: pointer;
+}
+.one{
+    margin: 10px;
+    width: 200px;
+    height:230px;
+    cursor :pointer;
+    border-radius: 10px;
+    padding:25px 25px;
+    box-sizing: border-box;
+    background-image: url(Images/pic-1.png);
+    background-position: center;
+    background-size: cover;
+    transition: transform 0.5s;
+
+}
+.two{
+    margin: 10px;
+    width: 200px;
+    height:230px;
+    cursor :pointer;
+    border-radius: 10px;
+    padding:25px 25px;
+    box-sizing: border-box;
+    background-image: url(Images/pic-2.png);
+    background-position: center;
+    background-size: cover;
+    transition: transform 0.5s;
+
+
+}
+.three{
+    margin: 10px;
+    width: 200px;
+    height:230px;
+    cursor :pointer;
+    border-radius: 10px;
+    padding:25px 25px;
+    box-sizing: border-box;
+    background-image: url(Images/pic-3.png);
+    background-position: center;
+    background-size: cover;
+    transition: transform 0.5s;
+
+
+}
+.four{
+    margin: 10px;
+    width: 200px;
+    height:230px;
+    cursor :pointer;
+    border-radius: 10px;
+    padding:25px 25px;
+    box-sizing: border-box;
+    background-image: url(Images/pic-4.png);
+    background-position: center;
+    background-size: cover;
+    transition: transform 0.5s;
+
+}
+.row{
+    margin-top: 13%;
+    display: flex;
+    flex-direction: column;
+    flex-grow: 2;
+    width:70%;
+}
+.middle{
+    margin-top: 5%;
+    margin-right: 20%;
+    margin-left: 20%;
+    display: flex;
+    justify-content: space-around;
+}
+.column{
+    margin-left: 5%;
+    display: flex;
+    flex-direction: row;
+    flex-grow: 1;
+    flex-wrap: wrap;
+    
+}
+.one:hover{
+    transform: translateY(-10px);
+}
+.two:hover{
+    transform: translateY(-10px);
+}
+.three:hover{
+    transform: translateY(-10px);
+}
+.four:hover{
+    transform: translateY(-10px);
+}
+h5{
+    color:#fff;
+    text-shadow: 0 0 5px #999;
+}
+.column p{
+    text-shadow: 0 0 15px #000;
+    font-size:8px;
+}
+.row a{
+    text-decoration: none;
+
+}
+button:hover{
+    color:darkcyan;
+}
+.nav ul li a:hover{
+    color:darkcyan;
+}
